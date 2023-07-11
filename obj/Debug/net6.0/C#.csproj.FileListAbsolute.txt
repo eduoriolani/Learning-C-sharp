@@ -1,0 +1,15 @@
+/Users/lemarch/Desktop/MindHub/C#/C#/bin/Debug/net6.0/C#
+/Users/lemarch/Desktop/MindHub/C#/C#/bin/Debug/net6.0/C#.deps.json
+/Users/lemarch/Desktop/MindHub/C#/C#/bin/Debug/net6.0/C#.runtimeconfig.json
+/Users/lemarch/Desktop/MindHub/C#/C#/bin/Debug/net6.0/C#.dll
+/Users/lemarch/Desktop/MindHub/C#/C#/bin/Debug/net6.0/C#.pdb
+/Users/lemarch/Desktop/MindHub/C#/C#/obj/Debug/net6.0/C#.csproj.AssemblyReference.cache
+/Users/lemarch/Desktop/MindHub/C#/C#/obj/Debug/net6.0/C#.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lemarch/Desktop/MindHub/C#/C#/obj/Debug/net6.0/C#.AssemblyInfoInputs.cache
+/Users/lemarch/Desktop/MindHub/C#/C#/obj/Debug/net6.0/C#.AssemblyInfo.cs
+/Users/lemarch/Desktop/MindHub/C#/C#/obj/Debug/net6.0/C#.csproj.CoreCompileInputs.cache
+/Users/lemarch/Desktop/MindHub/C#/C#/obj/Debug/net6.0/C#.dll
+/Users/lemarch/Desktop/MindHub/C#/C#/obj/Debug/net6.0/refint/C#.dll
+/Users/lemarch/Desktop/MindHub/C#/C#/obj/Debug/net6.0/C#.pdb
+/Users/lemarch/Desktop/MindHub/C#/C#/obj/Debug/net6.0/C#.genruntimeconfig.cache
+/Users/lemarch/Desktop/MindHub/C#/C#/obj/Debug/net6.0/ref/C#.dll
