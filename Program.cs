@@ -17,47 +17,76 @@
 
 /////////////////// SESION 2 //////////////////////
 
-//Ejercicio 1
+// //Ejercicio 1
 
-string nombre = "Carlos";
-string apellido = "Molineri";
-short edad = 25;
-string mensaje = "sabe de C#";
+// string nombre = "Carlos";
+// string apellido = "Molineri";
+// short edad = 25;
+// string mensaje = "sabe de C#";
 
-Console.WriteLine("El es " + nombre + " " + apellido + " su edad es de: " + edad + " años, y ademas " + mensaje);
+// Console.WriteLine("El es " + nombre + " " + apellido + " su edad es de: " + edad + " años, y ademas " + mensaje);
  
 
- //Ejercicio 2
+//  //Ejercicio 2
 
- //Coche
- byte puertas = 4;
- byte ruedas = 4;   
- string marca = "Honda";
- int itvVigente = 2025; //En argentina solo se indica la fecha de caducidad
-Console.WriteLine("El coche tiene " + puertas + " puertas, " + ruedas + " ruedas, la marca del mismo es " + marca + " y su itv está vigente hasta " + itvVigente);
+//  //Coche
+//  byte puertas = 4;
+//  byte ruedas = 4;   
+//  string marca = "Honda";
+//  int itvVigente = 2025; //En argentina solo se indica la fecha de caducidad
+// Console.WriteLine("El coche tiene " + puertas + " puertas, " + ruedas + " ruedas, la marca del mismo es " + marca + " y su itv está vigente hasta " + itvVigente);
 
- //Mesa
- byte peso = 30;
- float largo = 1.20f;
- string material = "algarrobo";
- string color = "marrón";
-Console.WriteLine("La mesa tiene un peso de " + peso + "kg, un largo de " + largo + "mts, es de " + material + " y su color es " + color);
+//  //Mesa
+//  byte peso = 30;
+//  float largo = 1.20f;
+//  string material = "algarrobo";
+//  string color = "marrón";
+// Console.WriteLine("La mesa tiene un peso de " + peso + "kg, un largo de " + largo + "mts, es de " + material + " y su color es " + color);
 
- //Ejercicio 3
+//  //Ejercicio 3
 
-char caracter = 'a';
-bool comparacion = caracter == 'a';
-Console.WriteLine(comparacion);
+// char caracter = 'a';
+// bool comparacion = caracter == 'a';
+// Console.WriteLine(comparacion);
 
-bool condicion1 = true;
-bool condicion2 = true;
-bool resultado = condicion1 && condicion2;
-Console.WriteLine(resultado);
+// bool condicion1 = true;
+// bool condicion2 = true;
+// bool resultado = condicion1 && condicion2;
+// Console.WriteLine(resultado);
 
-bool condicion3 = true;
-bool condicion4 = false;
-bool resultado2 = condicion3 || condicion4;
-Console.WriteLine(resultado2);
+// bool condicion3 = true;
+// bool condicion4 = false;
+// bool resultado2 = condicion3 || condicion4;
+// Console.WriteLine(resultado2);
 
+// /////////////// SESION 3 ////////////////////
+
+
+Client cliente = new Client("Eduardo Oriolani", 3465525119, "Sobral 510", "edu.oriolani@gmail.com", true);
+Console.WriteLine(cliente);
+public struct Client{
+
+    public Client (string nombreCompleto, long telefono, string direccion, string email, bool esNuevo){
+        nombreCliente = nombreCompleto;
+        telefonoCliente = telefono;
+        direccionCliente = direccion;
+        emailCliente = email;
+        esNuevoCliente = esNuevo;
+    }
+    public string nombreCliente { get; set;}
+    public long telefonoCliente { get; set;}
+    public string direccionCliente { get; set;}
+    public string emailCliente { get; set; }
+    public bool esNuevoCliente { get; set; }
+
+    public override string ToString()
+    {
+        return $"Nombre: {nombreCliente}\n" +
+               $"Teléfono: {telefonoCliente}\n" +
+               $"Dirección: {direccionCliente}\n" +
+               $"Email: {emailCliente}\n" +
+               $"Nuevo Cliente: {esNuevoCliente}\n";
+    }
+}
 
  
